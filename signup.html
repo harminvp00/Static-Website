@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>
+            sign up
+        </title>
+        <style>
+            body{
+                background-image: url(images/sky.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            form {
+                border: 4px;
+                border-style: solid;
+                border-radius: 5px;
+                border-color: black;
+                background-color: lightblue;
+                display: inline-block;
+                padding: 12px;
+                text-decoration: solid black;
+            }
+            .form1{
+                display: inline-block;
+                position: absolute;
+                padding: 1cm;
+                margin-top: 5cm;
+                left: 15.50cm;
+            }
+        </style>
+    </head>
+    <body>
+        <form class="form1">
+            <h1 style="text-decoration: white;">Create a new account</h1>
+
+            <label>First Name</label>
+            <input type="text"> <br> <br>
+
+            <label>Last Name </label>
+            <input type="text"> <br> <br>
+
+            <label> Email id : </label>
+            <input type="text"> <label>@gmail.com</label> <br> <br>
+
+            <label> DOB  : </label>
+            <input type="date"> <br> <br>
+
+            <label> Gender : </label>
+                <input type="radio" name="gender">
+                <label for="male">Male</label>
+                <input type="radio" name="gender">
+                <label for="female">Female</label>
+                <input type="radio" name="gender">
+                <label for="other">Other</label> <br> <br>
+
+            <input type="checkbox" checked>
+            <label for="check" > Agree with term and condition </label> <br> <br>
+
+            <input type="button" value="Get Account">
+        </form>
+    </body>
+</html>
